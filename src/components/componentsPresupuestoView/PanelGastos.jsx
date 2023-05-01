@@ -62,7 +62,6 @@ export default function PanelGastos({
         setEditarGasto={setEditarGasto}
         idModal={idModal}
         eliminarGasto={eliminarGasto}
-        // eliminatMonto={eliminatMonto}
       />
 
       <button
@@ -79,19 +78,7 @@ export default function PanelGastos({
         guardarGasto={guardarGasto}
         editarGasto={editarGasto}
         handleLimpiarModal={handleLimpiarModal}
-        // guardarCategoria={guardarCategoria}
-        // setIsEdit={setIsEdit}
       />
     </div>
   );
 }
-
-// const [objVivienda, setObjVivienda] = useState({});
-// const [objTransporte, setObjTransporte] = useState({});
-// const [objAlimentacion, setObjAlimentacion] = useState({});
-// const [objEducacion, serObjEducacion] = useState({});
-// const [objSalud, setObjSalud] = useState({});
-// const [objCuidado, setObjCuidado] = useState({});
-// const [objAhorros, setObjAhorros] = useState({});
-// const [objOcio, serObjOcio] = useState({});
-// const [objOtros, serObjOtros] = useState({});

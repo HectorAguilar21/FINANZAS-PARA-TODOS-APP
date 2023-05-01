@@ -2,15 +2,15 @@ import React from "react";
 
 export default function CategoriaList({ categoria, formatoDinero, gastado }) {
   const diccionarioImagenes = {
-    Vivienda: "/src/assets/imgPresupuesto/vivienda.png",
-    Transporte: "/src/assets/imgPresupuesto/transporte.png",
-    Alimentacion: "/src/assets/imgPresupuesto/alimentos.png",
-    Educacion: "/src/assets/imgPresupuesto/educacion.png",
-    Salud: "/src/assets/imgPresupuesto/salud.png",
-    CuidadoPersonal: "/src/assets/imgPresupuesto/cuidado-personal.png",
-    Ahorros: "/src/assets/imgPresupuesto/ahorros.png",
-    Ocio: "/src/assets/imgPresupuesto/ocio.png",
-    Otros: "/src/assets/imgPresupuesto/otros.png",
+    Vivienda: "img/imgPresupuesto/vivienda.png",
+    Transporte: "img/imgPresupuesto/transporte.png",
+    Alimentacion: "img/imgPresupuesto/alimentos.png",
+    Educacion: "img/imgPresupuesto/educacion.png",
+    Salud: "img/imgPresupuesto/salud.png",
+    CuidadoPersonal: "img/imgPresupuesto/cuidado-personal.png",
+    Ahorros: "img/imgPresupuesto/ahorros.png",
+    Ocio: "img/imgPresupuesto/ocio.png",
+    Otros: "img/imgPresupuesto/otro.png",
   };
 
   return (
@@ -18,6 +18,7 @@ export default function CategoriaList({ categoria, formatoDinero, gastado }) {
       <img
         src={diccionarioImagenes[categoria.categoriaPresupuesto]}
         alt={`Imagen de ${categoria.categoriaPresupuesto}`}
+        title="imagen obtenida en: 'https://www.flaticon.es/iconos-gratis/direccion Dirección iconos creados por kerismaker'"
       />
       <div>
         <div className="descripcion-gasto">

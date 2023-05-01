@@ -25,8 +25,9 @@ export default function Landing({
           <button className="btn btn-presupuesto" onClick={handlePresupuesto}>
             <h2>Definir presupuesto</h2>
             <img
-              src="/src/assets/imgLanding/presupuesto.png"
+              src="img/imgLanding/presupuesto.png"
               alt="imagen de presupuesto"
+              title="imagen obtenida en: 'https://www.flaticon.es/iconos-gratis/direccion Dirección iconos creados por kerismaker'"
             />
           </button>
         </div>
@@ -34,21 +35,13 @@ export default function Landing({
           <button className="btn btn-cuentas" onClick={handleCuentas}>
             <h2>Gestionar cuentas</h2>
             <img
-              src="/src/assets/imgLanding/cuentas.png"
+              src="img/imgLanding/cuentas.png"
               alt="imagen de cuentas"
+              title="imagen obtenida en: 'https://www.flaticon.es/iconos-gratis/direccion Dirección iconos creados por kerismaker'"
             />
           </button>
         </div>
       </main>
     </>
   );
-}
-
-{
-  /* <a
-  href="https://www.flaticon.es/iconos-gratis/direccion"
-  title="dirección iconos"
->
-  Dirección iconos creados por kerismaker - Flaticon
-</a>; */
 }
